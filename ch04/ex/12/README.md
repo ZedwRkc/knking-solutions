@@ -1,6 +1,6 @@
 ### Exercise 4.12
 
-Show the output produced by each of the following program fragments. Assume that i and j are int variables.
+Show the output produced by each of the following program fragments. Assume that `i` and `j` are int variables.
 
 ```c
 (a) i = 5;
