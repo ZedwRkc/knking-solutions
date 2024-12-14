@@ -8,10 +8,9 @@ if (n % 2 == 0);
 ```
 
 ### Solution
-In the above program, `if` statement ends with semicolon. 
-It should be modified as follows:
-```c
-if(n % 2 == 0)
-    printf("n is even \n");
-```
+The problem is the semicolon at the end of the first line. If we remove it, the statement is now correct:
 
+```c
+if (n % 2 == 0)
+  printf("n is even\n");
+```
